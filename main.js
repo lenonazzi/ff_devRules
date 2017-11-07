@@ -8,7 +8,7 @@ $(document).ready(function(){
 			buildMeasurements();
 
 			if(measurements_time) clearTimeout(measurements_time);
-			measurements_time = setTimeout(doneResizing(), 5000);
+			measurements_time = setTimeout(doneResizing(), 300);
 		}
 	});
 
